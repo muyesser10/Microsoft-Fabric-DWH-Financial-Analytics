@@ -1,11 +1,23 @@
 # Microsoft Fabric Enterprise Data Warehouse
 
-End-to-end analytics engineering project built on Microsoft Fabric.
+This project demonstrates an end-to-end analytics engineering architecture built on Microsoft Fabric.
 
-The project demonstrates enterprise-grade data architecture including:
+The platform includes:
 
-• Lakehouse-based data processing  
-• PySpark data transformation  
-• Warehouse dimensional modeling  
-• Analytical SQL layer  
-• Power BI semantic model
+- Lakehouse data ingestion
+- PySpark data transformation
+- Warehouse dimensional modeling
+- Analytical SQL layer
+- Power BI semantic model
+
+## Architecture
+
+CSV Dataset → Lakehouse → Spark Cleaning → Delta Tables → Warehouse → Power BI
+
+## Technologies
+
+- Microsoft Fabric
+- PySpark
+- SQL
+- Delta Lake
+- Power BI
