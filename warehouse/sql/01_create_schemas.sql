@@ -1,0 +1,8 @@
+CREATE SCHEMA staging;
+GO
+
+CREATE SCHEMA dimensions;
+GO
+
+CREATE SCHEMA facts;
+GO
